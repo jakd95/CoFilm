@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ventana_ayuda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/ventana_ayuda"
+    android:background="#C10A7E"
+    tools:context=".ventana_ayuda">
+
+    <Button
+        android:id="@+id/btna_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FEFEFE"
+        android:text="Regresar"
+        android:textColor="#040303"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:iconGravity="end"
+        app:iconTint="#C00A7E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tva_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="193dp"
+        android:fontFamily="casual"
+        android:text="Mobile grouo 03"
+        android:textColor="#E2E2E2"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tva_3" />
+
+    <TextView
+        android:id="@+id/tva_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="175dp"
+        android:fontFamily="casual"
+        android:text="+57 309 4598 456"
+        android:textColor="#FEFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tva_2" />
+
+    <TextView
+        android:id="@+id/tva_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="172dp"
+        android:fontFamily="casual"
+        android:text="Contáctenos :"
+        android:textColor="#FEFEFE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_1" />
+
+    <TextView
+        android:id="@+id/tva1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="112dp"
+        android:fontFamily="casual"
+        android:text="Centro De Ayuda"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="85dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="163dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tva1"
+        tools:srcCompat="@android:drawable/stat_sys_headset" />
+
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:rotationX="1"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:srcCompat="@drawable/LogoUno" />
+</androidx.constraintlayout.widget.ConstraintLayout>
